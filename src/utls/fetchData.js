@@ -1,10 +1,11 @@
 export const exerciseOptions = {
     method: 'GET',
+    url: 'https://exercisedb.p.rapidapi.com/status',
     headers: {
-        'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY,
-        'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
+      'x-rapidapi-key': '7e077f66e6msh48606c1ae882807p1771c2jsn1e051a0b54e1',
+      'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
     }
-};
+  };
 
 export const youtubeOptions = {
     method: 'GET',
