@@ -19,8 +19,8 @@ const Navbar = () => (
             <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
             <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
             <ul>
-        <li><Link to="/login">Login</Link></li>
-        <li><Link to="/signup">Signup</Link></li>
+        <li><Link to="/login" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Login</Link></li>
+        <li><Link to="/signup" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Signup</Link></li>
       </ul>
         </Stack>
     </Stack>
